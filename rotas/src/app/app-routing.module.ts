@@ -15,7 +15,7 @@ const routes: Routes = [
   {path: 'naoEncontrado', component: CursoNaoEncontradoComponent}
 ];
 
-export const routing: ModuleWithProviders<any> = RouterModule.forRoot(routes);
+// export const routing: ModuleWithProviders<any> = RouterModule.forRoot(routes);
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
